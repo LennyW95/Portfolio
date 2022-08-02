@@ -1,0 +1,14 @@
+.link--button {
+    background: $dark-green;
+    border-radius: $s-size;
+    font-size: $font-size-small;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: center;
+    width: fit-content
+}
+
+.link--button__link {
+    color: white;
+    text-decoration: none;
+}
