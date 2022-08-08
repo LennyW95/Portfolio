@@ -1,0 +1,22 @@
+.work-class {
+    background: $light-grey;
+    border-radius: $m-size;
+    margin: 0 0 $l-size 0;
+    padding: $s-size;
+    text-align: center;
+
+    p {
+        color: $dark-green;
+        margin-left: $s-size;
+        text-align: left; //dont know if i want it centered or not
+    }
+
+    img {
+        width: 70%;
+    }
+}
+
+.previous-work {
+    margin: 0 0 $l-size 0;
+    text-align: center;
+}

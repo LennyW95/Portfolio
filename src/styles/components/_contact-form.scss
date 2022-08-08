@@ -1,0 +1,16 @@
+.contact-form__label {
+    color: $grey;
+
+}
+
+.contact-form__input {
+    background-color: $light-green;
+    border-radius: 0.5rem;
+    font-size: $font-size-large;
+    height: 3rem;
+    width: 60%;
+}
+
+.contact-form__textarea {
+    height: 10rem;
+}

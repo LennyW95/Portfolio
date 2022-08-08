@@ -12,29 +12,29 @@ import { sendContact } from '../emailJS/email';
 // };
 
 export const ContactForm = () => (
-    <div>
+    <div className='contact-form'>
         <form id="contact-form">
             <div>
-                <label htmlFor="name">Your name</label>
+                <label className='contact-form__label' htmlFor="name">Your name:</label>
                 <div>
-                    <input type="text" id="name" name="user_name" required></input>
+                    <input className='contact-form__input' type="text" id="name" name="user_name" required></input>
                 </div>
             </div>
             <div>
-                <label htmlFor="email">Your email address</label>
+                <label className='contact-form__label' htmlFor="email">Your email address:</label>
                 <div>
-                    <input type="email" id="email" name="user_email" required></input>
+                    <input className='contact-form__input' type="email" id="email" name="user_email" required></input>
                 </div>
             </div>
             <div>
-                <label htmlFor="message">Your message</label>
+                <label className='contact-form__label' htmlFor="message">Your message:</label>
                 <div>
-                    <textarea id="message" name="message" required></textarea>
+                    <textarea className='contact-form__input contact-form__textarea' id="message" name="message" required></textarea>
                 </div>
             </div>
             <div>
-                <button onClick={sendContact}>Send</button>
+                <button className='button--contact-form' onClick={sendContact}>SEND</button>
             </div>
-        </form>
-    </div>
+        </form >
+    </div >
 );

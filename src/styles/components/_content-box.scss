@@ -1,0 +1,16 @@
+.content-box-light {
+    background: white;
+    border-radius: $m-size;
+    margin: 0 0 $l-size 0;
+    padding: $s-size;
+    text-align: center;
+
+    p {
+        color: $dark-green;
+        text-align: left;
+    }
+
+    img {
+        width: 70%;
+    }
+}

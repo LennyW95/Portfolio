@@ -4,3 +4,19 @@
     padding: $s-size;
     text-align: center;
 }
+
+.about-dashboard-content {
+    margin: 0 0 $l-size 0;
+}
+
+.green-background {
+    background-color: $light-green;
+    // margin: 0 -$m-size;
+    margin: 0 (-$m-size);
+    padding: $m-size;
+    text-align: center;
+
+    h2 {
+        margin: $m-size 0;
+    }
+}

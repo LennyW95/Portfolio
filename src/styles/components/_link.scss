@@ -2,7 +2,7 @@
     background: $dark-green;
     border-radius: $s-size;
     font-size: $font-size-small;
-    margin: 0 auto;
+    margin: $l-size auto $l-size auto;
     padding: 0 1rem;
     text-align: center;
     width: fit-content
@@ -11,4 +11,8 @@
 .link--button__link {
     color: white;
     text-decoration: none;
+
+    h1 {
+        margin: 0;
+    }
 }
