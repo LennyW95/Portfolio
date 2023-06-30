@@ -1,10 +1,21 @@
 .footer {
-    background: $dark-green;
+    background: $header-pink;
+    bottom: 0;
+    height: $footer-height;
     padding: $m-size 0;
+    position: absolute;
     text-align: center;
+    width: 100%;
 
     h2 {
         color: white;
         margin: $s-size auto;
     }
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 60%;
 }

@@ -7,10 +7,11 @@ html {
 }
 
 body {
-    color: $dark-grey;
+    color: black;
     font-family: Helvetica, Arial, sans-serif;
     font-size: $m-size;
     line-height: 1.6;
+    background-color: $backgroung-dashboard;
 
 }
 
@@ -22,6 +23,11 @@ button:disabled {
     cursor: default;
 }
 
-.is-active {
-    font-weight: bold;
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: $footer-height;
 }

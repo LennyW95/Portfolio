@@ -1,13 +1,35 @@
+.header {
+    z-index: 100;
+    background-color: $header-pink;
+}
+
 .header__content {
+    //align-items: right;
+    //color: $dark-grey;
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: $s-size 0;
-    color: $dark-grey;
+    padding: 0.5rem 0;
 }
 
 .header__links {
-    color: $dark-grey;
+    color: white;
     text-decoration: none;
-    font-size: 0.7rem;
+    font-size: $font-size-tiny;
+    margin: 0 $m-size;
+}
+
+.is-active {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+
+.nav__nav-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav__home-button {
+    display: flex;
 }

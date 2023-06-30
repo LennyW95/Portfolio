@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const SocialMadiaLinks = () => (
-    <div>
+    <div className='social-media-links'>
         <a href="https://github.com/LennyW95">
             <img alt="Github Logo" src="/images/github-logo.png" width="50px"></img>
         </a>

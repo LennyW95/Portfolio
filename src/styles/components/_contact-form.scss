@@ -4,8 +4,10 @@
 }
 
 .contact-form__input {
-    background-color: $light-green;
-    border-radius: 0.5rem;
+    background-color: lighten($header-pink, 15%);
+    border: $darker-grey 0.1rem;
+    // border-radius: 0.5rem;
+    //border-style: solid;
     font-size: $font-size-large;
     height: 3rem;
     width: 60%;

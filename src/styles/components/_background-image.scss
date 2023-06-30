@@ -1,0 +1,23 @@
+.BackgroundImage {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: border-box;
+    height: calc(100vh - 57px);
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100vw;
+    z-index: -100
+}
+
+.backgroundImage__header {
+    //background-color: rgba(255, 255, 255, 0.8);
+    color: $purple-dark;
+    display: table;
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+}

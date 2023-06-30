@@ -8,9 +8,11 @@ const PublicRoute = ({
     ...rest
 }) => (
     <Route {...rest} component={(props) => (
-        <div>
-            <Header />
-            <Component {...props} />
+        <div class="page-container">
+            <div class="content-wrap">
+                <Header />
+                <Component {...props} />
+            </div>
             <Footer />
         </div>
     )} />
